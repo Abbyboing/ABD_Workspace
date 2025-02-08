@@ -4,41 +4,92 @@ public class Reserve_Word {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//Allowed characters: A-Za-z0-9$_
-		int Total_Number;
-		int Total#;
 		
-		int Total123;
-		int 123Total;
+		//53 reserved words in java
 		
-		int number;
-		int Number;
-		int NUMBER;
+		//48 used keywords
 		
-		int xxxxxxxxxxxxxxxxxxxxxyyyyyyyyyyyyyyyyyyyyyyzzzzzzzzzzzzzzzzzzzzzzz = 10;
-		System.out.println(xxxxxxxxxxxxxxxxxxxxxyyyyyyyyyyyyyyyyyyyyyyzzzzzzzzzzzzzzzzzzzzzzz);
+		Data Types:
+			
+			byte
+			  |
+			  v
+			short
+			  |
+			  v
+	char -> int -> float (long -> float)      boolean
+			  |		|
+			  v		v
+			long -> double (int -> double)
+			
+			
+		Flow Control:
+			
+			if
+			else
+			switch
+			case
+			default
+			for
+			while
+			do
+			break
+			continue
+			return
+					
+		Modifiers:
+			
+			public
+			private
+			protected
+			static
+			final
+			abstract
+			synchronized
+			native
+			strictfp (v1.2)
+			transient
+			volatile
+			
+		Exception Handling:
+			
+			try
+			catch
+			finally
+			throw
+			throws
+			assert (v1.4)
+			
+		Class related Keywords:
+			
+			class
+			interface
+			extends
+			implements
+			import
+			package
+			enum (v1.5)
+			
+		Object Related Keywords:
+			
+			new
+			instanceof
+			super
+			this
+			
+		Return Type Keywords:
+			
+			void
 		
-		int x;
-		int if;
+		//2 unused keywords
+		goto
+		const
 		
-		int String = 999;
-		System.out.println(String);
-		
-		int Runnable = 888;
-		System.out.println(Runnable);
-		
-		//Total_number (valid)
-		//Total# (invalid)
-		//123total (invalid)
-		//Total123 (valid)
-		//Ca$h (valid)
-		//_$_$_$_$ (valid)
-		//all@handle (invalid)
-		//java2share (valid)
-		//Integer (valid)
-		//Int (valid)
-		//int (invalid)
-		
+		//3 reserved literals
+		true
+		false
+		null
+
 	}
 
 }
