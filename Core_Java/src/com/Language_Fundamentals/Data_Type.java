@@ -34,6 +34,7 @@ public class Data_Type {
 		//Null is default value for the object reference and we can’t applied for primitives. If we are trying to use for primitives we will get compile type error.
 				
 		//Check 2
+
 	}
 
 }
