@@ -27,6 +27,10 @@ public class Literals {
 		long l=10L;
 		long m=010L;
 		long n=0x10L;
+
+//		char ch = 0x40;
+		char ch = '\u0040';
+		System.out.println("Character : "+ch);
 		
 	}
 }
