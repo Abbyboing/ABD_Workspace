@@ -30,7 +30,8 @@ public class Literals {
 
 //		char ch = 0x40;
 		char ch = '\u0040';
-		System.out.println("Character : "+ch);
+		System.out.println("Character : "+ch); 
+		System.out.println("Character : "+ch); 
 		
 	}
 }
